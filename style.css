@@ -1,12 +1,13 @@
-body{
-}
+
 
 .nama{
-    color: #6E7371;
+    color: #dae5e0;
+    margin-top: 15px;
 }
 
 
 .tombol {
-    width: 300px;
-    height: 45px;
+    width: 70%;
+    height: 60px;
+    
 }
