@@ -1,6 +1,6 @@
 
 .nama{
-    color: #dae5e0;
+    color: #ffffff;
     margin-top: 50px;
 }
 
@@ -10,4 +10,11 @@
     height: 52px;
     
     
+}
+
+.bulat {
+    background-color: #dae5e0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
