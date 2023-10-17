@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(212, 212, 212);
+}
+.container {
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+img {
+  border-radius: 50%;
+  width: 210px;
+  max-width: 35%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: #011f26;
+  margin-top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tombol {
+  background-color: rgb(212, 212, 212);
+  color: #011f26;
+  width: 80%;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tombol:hover {
+  background-color: #0d0d0d;
+  color: rgb(212, 212, 212);
+  width: 80%;
+  height: 50px;
+  border-radius: 15px;
+}
