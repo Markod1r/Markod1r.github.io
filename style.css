@@ -1,81 +1,85 @@
 /* silahkan styling disini */
+
 body {
-	margin: 0%;
-	padding: 2rem;
-	background-color: #1e1e1e;
+	background-color: #2d2d2d;
 }
+
+/* header */
+header {
+	display: flex;
+	background-color: #d9643a;
+	margin: 2rem;
+	border-radius: 0.5rem;
+	padding-left: 1rem;
+	align-items: center;
+}
+
+header h1 {
+	color: #ffffff;
+	flex: 1;
+}
+
+header h3 a {
+	text-decoration: none;
+	color: #ffffff;
+	flex: 1;
+	margin-right: 1rem;
+}
+
+/* main */
 .container {
 	display: flex;
 	justify-content: space-around;
 }
 
-.box {
-	display: flex;
-	align-items: center;
-	text-align: justify;
-	border-radius: 1rem;
-}
-
-h1 {
-	color: #f4a900;
-	margin-top: 0;
-}
-
-header {
-	background-color: #04060d;
-	height: 4.5rem;
-	width: 88rem;
-	padding-top: 1rem;
-	padding-left: 2rem;
-}
-main {
-	margin-top: 0.5rem;
-}
-
 .deskripsi {
 	flex: 1;
-	width: 18rem;
-	height: auto;
-	margin: 0rem;
-	background-color: #f4a900;
-	border-radius: 0.5rem;
+	margin-left: 4rem;
+}
+
+.deskripsi h2 {
+	color: #f27f3d;
+
+	font-size: 3rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	margin-bottom: 1rem;
+}
+.deskripsi h1 {
+	color: #f27f3d;
+	font-size: 6rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	margin: 0;
+}
+.deskripsi h3 {
+	color: #f27f3d;
+	font-size: 1.5rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	margin-left: 3rem;
 }
 
 .gambar {
-	flex: 3;
-	width: 18rem;
-	height: auto;
-	margin: 3rem;
-	background-color: #f4a900;
-	border-radius: 0.5rem;
+	flex: 0.6;
 }
 
-section {
-	color: #04060d;
-	height: auto;
-	background-color: #f4a900;
-	margin: 1rem;
-	padding: 2rem;
-	border-radius: 0.5rem;
+.gambar img {
+	width: 25rem;
 }
+
+/* footer */
 
 footer {
-	background-color: #d94711;
+	background-color: #d9643a;
 	text-align: center;
-	align-items: center;
-	padding: 1rem;
-	border-radius: 0.5rem;
-	width: 87rem;
-	margin-left: 1rem;
+	border-radius: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin: 2rem;
 }
 
-footer p {
-	color: #ffffff;
-	font-family: "Times New Roman", Times, serif;
-}
-
-footer p a {
+footer a {
+	color: #e5b80b;
 	text-decoration: none;
-	color: #f4a900;
-	font-weight: bold;
 }
