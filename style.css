@@ -74,12 +74,13 @@ footer {
 	background-color: #d9643a;
 	text-align: center;
 	border-radius: 1rem;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	margin: 2rem;
 }
 
 footer a {
-	color: #e5b80b;
+	color: #ffffff;
 	text-decoration: none;
+	font-size: large;
 }
