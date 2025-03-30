@@ -35,7 +35,6 @@ header h3 a {
 
 .deskripsi {
 	flex: 1;
-	margin-left: 4rem;
 }
 
 .deskripsi h1 h2 h3 {
@@ -75,6 +74,7 @@ header h3 a {
 
 footer {
 	margin: 0;
+	background-color: #0d0d0d;
 }
 
 @media screen and (max-width: 425px) {
