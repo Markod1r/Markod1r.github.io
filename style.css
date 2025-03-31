@@ -36,6 +36,9 @@ header h3 a {
 
 .deskripsi {
 	flex: 1;
+	animation-name: deskripsi;
+	animation-duration: 5s;
+	position: relative;
 }
 
 .deskripsi h1 h2 h3 {
@@ -69,6 +72,9 @@ header h3 a {
 
 .gambar img {
 	width: 20rem;
+	animation-name: gambar;
+	animation-duration: 5s;
+	position: relative;
 }
 
 /* footer */
@@ -76,6 +82,30 @@ header h3 a {
 footer {
 	margin: 0;
 	background-color: #0d0d0d;
+}
+
+@keyframes deskripsi {
+	0% {
+		opacity: 0%;
+		right: 12rem;
+	}
+
+	100% {
+		opacity: 100%;
+		right: 0;
+	}
+}
+@keyframes gambar {
+	0% {
+		opacity: 0%;
+		left: 10rem;
+		
+	}
+
+	100% {
+		opacity: 100%;
+		left: 0;
+	}
 }
 
 @media screen and (max-width: 425px) {
