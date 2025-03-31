@@ -101,30 +101,37 @@ footer {
 		margin-right: 1rem;
 		font-size: medium;
 	}
+
 	/* main */
+	.deskripsi {
+		margin-left: 0;
+	}
 	.deskripsi h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		margin-bottom: 1rem;
 		margin-left: 2rem;
 	}
 	.deskripsi h1 {
-		font-size: 1rem;
+		font-size: 2rem;
 		margin-top: 0rem;
 		margin-left: 4rem;
 		margin-bottom: 1rem;
 	}
 	.deskripsi h3 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		margin-top: 0rem;
 		margin-left: 2rem;
 	}
-	.deskripsi {
-		margin-left: 0;
-	}
-	.deskripsi h1 {
-		font-size: 4rem;
+	.gambar {
+		flex: 1;
 	}
 	.gambar img {
 		width: 10rem;
+	}
+
+	/* footer */
+	footer {
+		margin: 0.1rem;
+		background-color: #0d0d0d;
 	}
 }
