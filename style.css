@@ -103,6 +103,9 @@ footer {
 	}
 
 	/* main */
+	main{
+		margin-top: 5.6rem;
+	}
 	.deskripsi {
 		margin-left: 0;
 	}
@@ -133,6 +136,6 @@ footer {
 	footer {
 		margin: 0.1rem;
 		background-color: #0d0d0d;
-		margin-top: 13rem;
+		margin-top: 8rem;
 	}
 }
