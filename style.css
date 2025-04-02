@@ -30,6 +30,7 @@ header {
 header h1 {
 	color: #f2f2f2;
 	flex: 1;
+	
 }
 
 header h3 a {
@@ -66,18 +67,25 @@ main {
 	font-size: 5rem;
 	margin-bottom: 1rem;
 	margin-left: 10rem;
+	animation-name: deskripsi-h2;
+    animation-duration: 5s;
+	
 }
 .deskripsi h1 {
 	font-size: 5rem;
 	margin-top: 0rem;
 	margin-left: 15rem;
 	margin-bottom: 1rem;
+	animation-name: deskripsi-h1;
+    animation-duration: 4.5s;
 }
 
 .deskripsi h3 {
 	font-size: 3rem;
 	margin-top: 0rem;
 	margin-left: 13rem;
+	animation-name: deskripsi-h3;
+    animation-duration: 5s;
 }
 
 .gambar {
@@ -101,23 +109,45 @@ footer {
 @keyframes header {
 	0% {
 		opacity: 0%;
-		bottom: 3rem;
+		transform: translateY(-4rem);
 	}
 	100% {
 		opacity: 100%;
-		bottom: 0rem;
+		transform: translateY(0rem);
 	}
 }
 
-@keyframes deskripsi {
+@keyframes deskripsi-h2 {
 	0% {
 		opacity: 0%;
-		right: 12rem;
+		transform: translateX(-10rem);
 	}
 
 	100% {
 		opacity: 100%;
-		right: 0;
+		transform: translateX(0rem);
+	}
+}
+@keyframes deskripsi-h1 {
+	0% {
+		opacity: 0%;
+		transform: translateX(-13rem);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateX(0rem);
+	}
+}
+@keyframes deskripsi-h3 {
+	0% {
+		opacity: 0%;
+		transform: translateX(-10rem);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateX(0rem);
 	}
 }
 @keyframes gambar {
@@ -160,18 +190,18 @@ footer {
 		margin-left: 0;
 	}
 	.deskripsi h2 {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 		margin-bottom: 1rem;
 		margin-left: 2rem;
 	}
 	.deskripsi h1 {
-		font-size: 2rem;
+		font-size: 3rem;
 		margin-top: 0rem;
 		margin-left: 4rem;
 		margin-bottom: 1rem;
 	}
 	.deskripsi h3 {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 		margin-top: 0rem;
 		margin-left: 2rem;
 	}
