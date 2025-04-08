@@ -247,7 +247,7 @@ footer {
 
 	/* footer */
 	footer {
-		flex: none;
+		flex: 1;
 		color: #f2f2f2;
 		text-align: center;
 		padding: 0;
