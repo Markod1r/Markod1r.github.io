@@ -105,14 +105,15 @@ svg {
 
 footer {
 	flex: 1;
-	background-color: #0d0d0d;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 2rem 1rem;
+	padding: 0;
 	position: relative;
 }
 .footer-content {
+	background-color: #0d0d0d;
 	margin-top: -2rem;
+	height: 9rem;
 }
 
 .footer-content p {
@@ -245,4 +246,16 @@ footer {
 	}
 
 	/* footer */
+	footer {
+		flex: none;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 0;
+		position: relative;
+	}
+	.footer-content {
+		background-color: #0d0d0d;
+		margin-top: -2rem;
+		height: 10rem;
+	}
 }
