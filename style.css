@@ -94,7 +94,7 @@ main {
 	width: 20rem;
 	animation-name: gambar;
 	animation-duration: 5s;
-	position: relative;
+	position: absolute;
 }
 svg {
 	margin: 0;
@@ -189,12 +189,12 @@ footer {
 @keyframes gambar {
 	0% {
 		opacity: 0%;
-		left: 10rem;
+		transform: translateX(10rem);
 	}
 
 	100% {
 		opacity: 100%;
-		left: 0;
+		transform: translateX(0rem);
 	}
 }
 
@@ -221,6 +221,7 @@ footer {
 	/* main */
 	main {
 		margin-top: 3rem;
+		flex : 0.5;
 	}
 	.deskripsi {
 		margin-left: 0;
@@ -256,6 +257,7 @@ footer {
 	.footer-content {
 		background-color: #0d0d0d;
 		margin-top: -2rem;
-		height: 10rem;
+		height: 14.5rem;
+		padding-top: 5rem;
 	}
 }
