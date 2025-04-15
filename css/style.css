@@ -64,7 +64,7 @@
 }
 
 /* footer */
-footer button:hover {
+footer a:hover {
 	background-color: white;
 	color: black;
 	transform: scale(1.3);
