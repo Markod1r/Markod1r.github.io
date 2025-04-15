@@ -1,9 +1,12 @@
-let person = {
-	name: "Marcois",
-	hello: "Hello, I'm",
-	who: "I'm Human",
-};
+class human{
+	constructor(name) {
+		this.name = name;
+	}
+	sayHello() {
+		return `Hello I'm ${this.name}`
+	}
+}
 
-document.getElementById("name").innerHTML = person.name;
-document.getElementById("hello").innerHTML = person.hello;
-document.getElementById("who").innerHTML = person.who;
+let marco = new human ('marco');
+
+document.getElementById("name").innerHTML = marco.sayHello();

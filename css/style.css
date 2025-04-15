@@ -1,0 +1,64 @@
+#gambar {
+	animation: muncul 4s;
+	transform: scale(1);
+}
+
+@keyframes muncul {
+	from {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	to {
+		opacity: 100%;
+		transform: scale(1);
+	}
+}
+
+/* header */
+
+#header {
+	animation: header 4s;
+}
+
+@keyframes header {
+	from {
+    opacity: 0;
+		transform: translateY(-50%) scale(0.9);
+	}
+	to {
+    opacity: 100%;
+		transform: translateY(0) scale(1); 
+	}
+}
+
+/* title */
+
+#name{
+  animation: animasi-title 2s;
+}
+
+@keyframes animasi-title{
+  from{
+    opacity: 20%;
+    transform: translateX(-20%);
+  }
+  to{
+    opacity: 100%;
+    transform: translateX(0%);
+  }
+}
+
+#subtitle{
+  animation: animasi-subtitle 2s;
+}
+
+@keyframes animasi-subtitle {
+  from {
+    opacity: 20%;
+    transform: translateY(150%);
+  }
+  to{
+    opacity: 100%;
+    transform: translateY(0%);
+  }
+}
