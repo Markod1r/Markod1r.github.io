@@ -10,6 +10,11 @@ class human {
 	}
 }
 
+function tema() {
+	return ;
+}
+
 let marco = new human("marco");
 
 document.getElementById("name").innerHTML = marco.sayHello();
+document.getElementById("tema").addEventListener("click", tema);

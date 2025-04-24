@@ -1,3 +1,7 @@
+.tema {
+	background-color: black;
+}
+
 .gambar {
 	animation: muncul 2s;
 	transform: scale(1);
