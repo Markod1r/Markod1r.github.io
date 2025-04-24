@@ -1,14 +1,18 @@
 .gambar {
-	animation: muncul 4s;
+	animation: muncul 2s;
 	transform: scale(1);
 }
 
 @keyframes muncul {
-	from {
+	0% {
 		opacity: 0;
-		transform: scale(0.5);
+		transform: scale(1);
 	}
-	to {
+	50% {
+		opacity: 70%;
+		transform: scale(1.1);
+	}
+	100% {
 		opacity: 100%;
 		transform: scale(1);
 	}
