@@ -11,7 +11,7 @@ class human {
 }
 
 function tema() {
-	return ;
+	return;
 }
 
 let marco = new human("marco");
