@@ -39,7 +39,7 @@
 	}
 }
 
-/* title */
+/* main */
 
 #name {
 	animation: animasi-title 2s;
@@ -69,6 +69,10 @@
 		opacity: 100%;
 		transform: translateY(0%);
 	}
+}
+
+.card {
+	transition: 0.3s ease-in;
 }
 
 /* footer */
