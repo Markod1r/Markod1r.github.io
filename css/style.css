@@ -3,17 +3,17 @@
 }
 
 .gambar {
-	animation: muncul 2s;
+	animation: muncul 1s ease;
 	transform: scale(1);
 }
 
 @keyframes muncul {
 	0% {
-		opacity: 0;
+		opacity: 30%;
 		transform: scale(1);
 	}
 	50% {
-		opacity: 70%;
+		opacity: 60%;
 		transform: scale(1.1);
 	}
 	100% {
@@ -25,7 +25,7 @@
 /* header */
 
 #header {
-	animation: header 4s;
+	animation: header 1s;
 }
 
 @keyframes header {
@@ -42,13 +42,13 @@
 /* main */
 
 #name {
-	animation: animasi-title 2s;
+	animation: animasi-title 1s;
 }
 
 @keyframes animasi-title {
 	from {
-		opacity: 20%;
-		transform: translateX(-20%);
+		opacity: 10%;
+		transform: translateX(20%);
 	}
 	to {
 		opacity: 100%;
@@ -63,11 +63,11 @@
 @keyframes animasi-subtitle {
 	from {
 		opacity: 20%;
-		transform: translateY(150%);
+		transform: translateX(30%);
 	}
 	to {
 		opacity: 100%;
-		transform: translateY(0%);
+		transform: translateX(0%);
 	}
 }
 
