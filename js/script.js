@@ -12,6 +12,7 @@ class human {
 
 let marco = new human("marco");
 document.getElementById("name").innerHTML = marco.sayHello();
+document.getElementById("subtitle").innerHTML = "cita cita ku menjadi Web Developer";
 
 let card = document.querySelectorAll(".card");
 
